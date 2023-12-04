@@ -11,8 +11,10 @@ getFullName(p2); // => 'Charlie Brown'
 ***********************************************************************/
 
 function getFullName(person) {
-  // Your code here
-}
+  let firNam = "firstName";
+  let lasNam = "lastName";
+  return `${person[firNam]} ${person[lasNam]}`;
+};
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 module.exports = getFullName;
